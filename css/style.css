@@ -33,7 +33,7 @@ header a{
 	padding-top:70px;
 }
  main{
-	margin:10px 10% 60px 220px;
+	margin: 10px 10% 60px 220px;
 	padding: 0px 25px;
 }
 aside{
@@ -88,7 +88,7 @@ padding-left: 12px;
 }
 .intro-video{
     display:block;
-    height:50vh;
+    max-height:50vh;
     margin: 40px auto;
     max-width:100%;
     border-radius: 8px;
@@ -153,6 +153,7 @@ padding-left: 12px;
     font-family: inherit;
     padding:3px;
     font-size: 16px;
+    display:none;
 }
 #menu-btn{
     color:white;
@@ -161,6 +162,7 @@ padding-left: 12px;
     top:22px;
     right:25px;
     display:none;
+
 }
 .show{
     display: block !important;
@@ -174,7 +176,7 @@ padding-left: 12px;
     }
     main{
         margin: 0px;
-        padding: 10px 15px 20px 15px;
+        padding: 10px;
     }
 aside{
     display:none;
@@ -188,6 +190,6 @@ aside{
     height: 130px;
 }
 #menu-btn{
-    display:none;
+    display:block;
 }
 }
